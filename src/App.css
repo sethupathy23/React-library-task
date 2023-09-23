@@ -1,0 +1,130 @@
+.main-title{
+    display: flex;
+    justify-content: center;
+    color: rgb(14, 13, 13);
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    color: #1b2e49;
+  }
+  .library-btns{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 77vh;
+  }
+  .btn{
+    height: 100px;
+    width: 300px;
+    border-radius: 10%;
+    border: 1px solid #266fe4;
+    margin: 10px;
+    background-color: #266fe4;
+    font-size: larger;
+    color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 5px 5px 12px rgb(8, 8, 5)
+  }
+  .master-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .card{
+    height: auto;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 12px rgb(8, 8, 5)
+  }
+  .card-details{
+    height: auto;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 12px rgb(8, 8, 5);
+  }
+  .image{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px 20px 0 0;
+  }
+  .image-details{
+    height: 350px;
+    width: 400px;
+    border-radius: 20px 20px 0 0;
+    object-fit: fill;
+  }
+  .book-details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .book-details-view{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .material-btns{
+    display: flex;
+    justify-content: center;
+  }
+  .add-btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 1rem;
+  }
+  .save-btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .bg-image{
+    background-image:url(https://images.unsplash.com/photo-1549675584-91f19337af3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80);
+  }
+  .add-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+  .article{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .section{
+    font-size: large;
+  }
+  .footer{
+    margin-top: 20px;
+    height: 200px;
+    border: 1px solid #0d47a1;
+    background-color: #0d47a1;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-div{
+    margin: 5px;
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1577985051167-0d49eec21977?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1489&q=80);
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    color: #00193b;
+  }
+  .sub-heading{
+    color: #00193b;
+    font-size: large;
+    display: block;
+  }
